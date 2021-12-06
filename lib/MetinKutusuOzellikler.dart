@@ -10,17 +10,20 @@ class _MetinKutusuOzellikler extends State<MetinKutusuOzellikler> {
   @override
   Widget build(BuildContext context) {
     return Center(
-     child : TextField(
-        keyboardType: TextInputType.datetime,
-        maxLines: 1,
-       minLines: 1,
-       maxLength: 10,
-       textAlign: TextAlign.center,
-       textDirection: TextDirection.ltr,
-       obscureText: false,
-       enabled: true,
-       autofocus: true,
-        ),
+     child : Padding(
+       padding: EdgeInsets.symmetric(horizontal: 16),
+       child:TextField(
+         keyboardType: TextInputType.datetime,
+         maxLines: 1,
+         minLines: 1,
+         maxLength: 10,
+         textAlign: TextAlign.center,
+         textDirection: TextDirection.ltr,
+         obscureText: false,
+         enabled: true,
+         autofocus: true,
+       ),
+     )
     );
   }
 

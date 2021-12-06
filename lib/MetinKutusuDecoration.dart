@@ -35,7 +35,5 @@ class _MetinKutusuDecoration extends State<MetinKutusuDecoration> {
         ),
     );
   }
-
-
 }
 

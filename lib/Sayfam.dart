@@ -3,6 +3,9 @@ import 'MetinKutusuOzellikler.dart';
 import 'nesnem.dart';
 import 'MetinKutusuButonYontem1.dart';
 import 'MetinKutusuDecoration.dart';
+import 'ListViewOrnekleri/Ornek_1.dart';
+import 'ListViewOrnekleri/Ornek_2.dart';
+import 'ListViewOrnekleri/Ornek_3.dart';
 
 class Sayfam extends StatelessWidget
 {
@@ -12,7 +15,7 @@ class Sayfam extends StatelessWidget
       title: "Uygulama",
       home:Scaffold(
         appBar: AppBar(title: Text("Başlık"),),
-        body:MetinKutusuDecoration(),
+        body:ListViewOrnek_3(),
       )
     );
   }
