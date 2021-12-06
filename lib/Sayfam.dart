@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'MetinKutusuOzellikler.dart';
 import 'nesnem.dart';
 import 'MetinKutusuButonYontem1.dart';
+import 'MetinKutusuDecoration.dart';
 
 class Sayfam extends StatelessWidget
 {
@@ -10,7 +12,7 @@ class Sayfam extends StatelessWidget
       title: "Uygulama",
       home:Scaffold(
         appBar: AppBar(title: Text("Başlık"),),
-        body:Nesnem(),
+        body:MetinKutusuDecoration(),
       )
     );
   }

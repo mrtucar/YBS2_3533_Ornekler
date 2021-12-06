@@ -14,7 +14,9 @@ class _MetinKutusu extends State<MetinKutusu> {
       children: <Widget>[
         TextField(onChanged: (String deger){
           _metin = deger;
-        },),
+        },
+          
+        ),
         Text(_textYazisi),
         RaisedButton(
           child: Text("Yazıyı Güncelle"),
