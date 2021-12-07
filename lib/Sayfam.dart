@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'MetinKutusuOzellikler.dart';
+import 'MetinKutusuTextGuncelle.dart';
 import 'nesnem.dart';
-import 'MetinKutusuButonYontem1.dart';
+//import 'MetinKutusuButonYontem1.dart';
 import 'MetinKutusuDecoration.dart';
 import 'ListViewOrnekleri/Ornek_1.dart';
 import 'ListViewOrnekleri/Ornek_2.dart';
 import 'ListViewOrnekleri/Ornek_3.dart';
-
+import 'sayac.dart';
 class Sayfam extends StatelessWidget
 {
   @override
@@ -15,7 +16,7 @@ class Sayfam extends StatelessWidget
       title: "Uygulama",
       home:Scaffold(
         appBar: AppBar(title: Text("Başlık"),),
-        body:ListViewOrnek_3(),
+        body:Sayac(),
       )
     );
   }
