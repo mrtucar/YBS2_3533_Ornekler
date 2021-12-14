@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:ilkflutterprojem/sayac.dart';
 
 class Home extends StatelessWidget {
   @override
+
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Kendi Widgetim",
@@ -14,7 +16,7 @@ class Home extends StatelessWidget {
           child: Icon(Icons.question_answer),
           heroTag: "Ana sayfa FAB",
           onPressed: () {
-            print("Butona Tıklandı");
+            print("Test");
           },
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
