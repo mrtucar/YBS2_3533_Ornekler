@@ -26,7 +26,7 @@ class Sayfam extends StatelessWidget
       title: "Uygulama",
       home:Scaffold(
         appBar: AppBar(title: Text("Başlık"),),
-        body:MetinKutusuYon1(),
+        body:ExpandedBoyutlandirFlex(),
       )
     );
   }

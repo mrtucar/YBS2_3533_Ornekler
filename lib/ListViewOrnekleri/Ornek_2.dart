@@ -9,6 +9,7 @@ class ListViewOrnek_2 extends StatefulWidget{
   }
 }
 class _ListViewOrnek_2 extends State<ListViewOrnek_2> {
+  @override
   List<Sehir> _sehirler = [
     Sehir("İstanbul",34,15519267),
     Sehir("Ankara",6,5639076),
@@ -21,24 +22,22 @@ class _ListViewOrnek_2 extends State<ListViewOrnek_2> {
     Sehir("Gaziantep",27,2069364),
     Sehir("Kocaeli",41,1953035),
   ];
-
-  @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: _sehirler.length,
-      itemBuilder: _listeOgesiOlustur,
+        itemBuilder: _listeOgesiOlustur,
+        itemCount: _sehirler.length,
     );
   }
-
   Widget _listeOgesiOlustur(BuildContext context, int index) {
-      return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Text(_sehirler[index].isim),
-          SizedBox(height: 8,),
-          Text(_sehirler[index].nufus.toString()),
-          SizedBox(height: 30,),
-        ],
-      );
+  return Column (
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        Text(_sehirler[index].isim + _sehirler[index].Durum()),
+        SizedBox(height: 15,),
+        Text(_sehirler[index].nufus.toString()),
+        SizedBox(height: 15,),
+      ]
+  );
+
   }
 }

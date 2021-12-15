@@ -17,7 +17,9 @@ class _MetinKutusuYon1 extends State<MetinKutusuYon1> {
         },
           
         ),
+        SizedBox(height: 15,),
         Text(_textYazisi),
+        SizedBox(height: 15,),
         RaisedButton(
           child: Text("Yazıyı Güncelle"),
           onPressed:_yaziDegistir

@@ -26,7 +26,7 @@ class _MetinKutusuDecoration extends State<MetinKutusuDecoration> {
            borderRadius: BorderRadius.circular(10)
          ),
            labelText: "Bir Metin Giriniz.",
-           contentPadding: EdgeInsets.all(25),
+           contentPadding: EdgeInsets.all(55),
            counterText: "Sayac Metni",
            filled:true,
            fillColor: Colors.red,

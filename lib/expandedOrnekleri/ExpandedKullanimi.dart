@@ -8,24 +8,13 @@ class ExpandedOrnek extends StatelessWidget {
       padding: EdgeInsets.all(16),
       child: Row (
         //Hata Verecektir
-        /*
         children: <Widget>[
           Text("Boy "),
-          TextField()
+          Expanded( child: TextField(),
+          )
+
         ],
-        */
-        /*children: <Widget>[
-          Text("Boy "),
-          SizedBox(
-              width:200,
-              child:TextField()),
-          ],
-        */
-        children: <Widget>[
-          Text("Boy "),
-          Expanded(
-              child:TextField())
-        ],
+
       ),
     );
   }

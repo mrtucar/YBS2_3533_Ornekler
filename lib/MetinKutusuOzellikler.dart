@@ -13,13 +13,13 @@ class _MetinKutusuOzellikler extends State<MetinKutusuOzellikler> {
      child : Padding(
        padding: EdgeInsets.symmetric(horizontal: 16),
        child:TextField(
-         keyboardType: TextInputType.datetime,
+         keyboardType: TextInputType.phone,
          maxLines: 1,
          minLines: 1,
          maxLength: 10,
          textAlign: TextAlign.center,
          textDirection: TextDirection.ltr,
-         obscureText: false,
+         obscureText: true,
          enabled: true,
          autofocus: true,
        ),
