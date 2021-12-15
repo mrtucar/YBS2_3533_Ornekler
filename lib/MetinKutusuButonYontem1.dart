@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-class MetinKutusu extends StatefulWidget{
+class MetinKutusuYon1 extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {
-    return _MetinKutusu();
+    return _MetinKutusuYon1();
   }
 }
-class _MetinKutusu extends State<MetinKutusu> {
+class _MetinKutusuYon1 extends State<MetinKutusuYon1> {
   @override
   String _metin = "";
   String _textYazisi = "Başlangıç Değeri";

@@ -3,7 +3,7 @@ import 'MetinKutusuOzellikler.dart';
 import 'MetinKutusuTextGuncelle.dart';
 import 'ToplamaIslemi.dart';
 import 'nesnem.dart';
-//import 'MetinKutusuButonYontem1.dart';
+import 'MetinKutusuButonYontem1.dart';
 import 'MetinKutusuDecoration.dart';
 import 'ListViewOrnekleri/Ornek_1.dart';
 import 'ListViewOrnekleri/Ornek_2.dart';
@@ -26,7 +26,7 @@ class Sayfam extends StatelessWidget
       title: "Uygulama",
       home:Scaffold(
         appBar: AppBar(title: Text("Başlık"),),
-        body:DropDownOrnek_2(),
+        body:MetinKutusuYon1(),
       )
     );
   }
